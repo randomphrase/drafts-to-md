@@ -22,6 +22,7 @@ MAX_TITLE_LEN = 40
 # Convert bad chars in a title to a legal filename with this translation
 TITLE_TO_FILENAME = str.maketrans({
     '/': '_',
+    ':': '-',
 })
 
 # these keys are copied into the frontmatter of each note. Currently there are no standard
