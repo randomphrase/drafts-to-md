@@ -28,8 +28,8 @@ TITLE_TO_FILENAME = str.maketrans({
 # these keys are copied into the frontmatter of each note. Currently there are no standard
 # frontmatter variables for this information, but hopefully there will be one day. In the meantime
 # we want to preserve this information.
-METADATA_KEYS = frozenset(['created_latitude', 'created_longditude',
-                           'modified_latitude', 'modified_longditude'])
+METADATA_KEYS = frozenset(['created_latitude', 'created_longitude',
+                           'modified_latitude', 'modified_longitude'])
 
 
 class Note(NamedTuple):
